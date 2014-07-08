@@ -1,0 +1,205 @@
+html, body {
+	margin: 0px 10px 0px 10px;
+	background:-webkit-linear-gradient(white,rgb(123,104,238));	
+}
+
+body {
+	font: 14px Tahoma;
+	border-color: rgb(139,10,80);
+	border-width: 2px;
+	border-style: solid;
+}
+
+div#body, footer#footer {
+	padding: 10px 200px 10px 10px;
+}
+
+#header nav#global {
+  background-color: yellow;
+  background-size: 100%;
+  border-color: rgb(139,10,80);
+  border-width: 2px;
+  border-style:solid;
+  text-align: justify;
+  padding:10px 10px 10px 0px;
+  margin:10px 480px 10px 0px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  text-shadow: 1px 1px 0 white, 2px 2px 0 black;
+  font-size:14px;
+  font-weight:bold;
+  margin:10px 200px 10px 10px;
+}
+
+#header nav#global ul li {
+  display: inline;
+}
+
+div#about {
+	margin:10px 200px -5px 10px;
+	padding-right:50px;
+    border: red 2px solid;
+	background: rgb(99, 181, 255);
+	-webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
+}
+
+div#articles{
+	margin:0px,-150px,0px,-500px;
+	border: red 2px solid;
+	padding: 10px;
+	background: rgb(99, 181, 255);
+	-webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
+}
+
+#articles article .body table th,
+#articles article .body table td {
+  padding: 8px 12px;
+  border: red solid 1px;
+}
+
+#articles article .body table th {
+  background: rgb(205,255,112);
+  text-align: right;
+  font-weight: bold;
+}
+
+blockquote p{
+	color:red;
+}
+
+#main .breadcrumbs ol li {
+  display: inline;
+  font-size: 93%;
+}
+
+#main .breadcrumbs ol li a:after {
+  content: " > ";
+}
+
+
+a {
+	color: purple;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+ul {
+	margin: 0px 0px 0px 2em;
+	padding: 0px;
+}
+li {
+	list-style: square;
+	margin: 0px;
+	padding: 0px;
+}
+
+aside#comments {
+	border:red 2px solid;
+	margin-top:10px;
+	margin-left:0px;
+	padding-left:5px;
+	-webkit-border-radius: 20px;
+    border-radius: 20px;
+	background: rgb(99, 181, 255);
+	color:white;
+	box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
+}
+
+div#sub aside.ad p{
+	position: fixed;
+	border:red 2px solid;
+    top: 45px;
+ 	right: 22px;
+ 	width: 190px;
+ 	height: 190px;
+ 	background-color: yellow;
+ 	text-align:center;
+ 	-webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+div#sub nav#local{
+	position: fixed;
+	border:red 2px solid;
+    top: 270px;
+ 	right: 22px;
+ 	width: 150px;
+ 	height: 150px;
+ 	background-color: yellow;
+}
+
+div#sub aside.banners{
+	position: fixed;
+	border:red 2px solid;
+    top: 430px;
+ 	right: 22px;
+ 	width: 150px;
+ 	height: 150px;
+ 	background-color: yellow;
+}
+
+div#about h2, div#articles h2, div#articles h3{
+	color:black;
+}
+
+div#body h4, div#body ul, div#body table tr th, div#body h5, div#body h6{
+	color:black;
+}
+
+aside#comments dl dt {
+	color:green;
+}
+
+aside#comments p{
+	color:yellow;
+	font-weight: bold;
+}
+
+#footer {
+  background: green;
+  padding: 20px 0;
+  color: white;
+}
+
+#footer nav {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+#footer nav ul li {
+  display: inline;
+}
+
+#footer nav ul li a {
+  color: white;
+  margin: 0 6px;
+}
+
+#footer nav ul li a:link {
+  text-decoration: none;
+  color: purple;
+}
+
+#footer nav ul li a:visited {
+  text-decoration: none;
+  color: purple;
+}
+
+#footer nav ul li a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+#footer .copyright {
+  text-align: center;
+}
