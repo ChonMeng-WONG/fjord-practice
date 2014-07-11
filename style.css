@@ -1,4 +1,4 @@
-html, body {
+body {
 	margin: 0px 10px 0px 10px;
 	background:-webkit-linear-gradient(white,rgb(123,104,238));	
 }
@@ -38,12 +38,12 @@ div#body, footer#footer {
 div#about {
 	margin:10px 200px -5px 10px;
 	padding-right:50px;
-    border: red 2px solid;
+  border: red 2px solid;
 	background: rgb(99, 181, 255);
 	-webkit-border-radius: 20px;
-    border-radius: 20px;
-    color: white;
-    box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
 }
 
 div#articles{
@@ -52,9 +52,9 @@ div#articles{
 	padding: 10px;
 	background: rgb(99, 181, 255);
 	-webkit-border-radius: 20px;
-    border-radius: 20px;
-    color: white;
-    box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
 }
 
 #articles article .body table th,
@@ -109,7 +109,7 @@ aside#comments {
 	margin-left:0px;
 	padding-left:5px;
 	-webkit-border-radius: 20px;
-    border-radius: 20px;
+  border-radius: 20px;
 	background: rgb(99, 181, 255);
 	color:white;
 	box-shadow: 5px 10px 5px rgba(0,0,0,0.3);
@@ -118,20 +118,20 @@ aside#comments {
 div#sub aside.ad p{
 	position: fixed;
 	border:red 2px solid;
-    top: 45px;
+  top: 45px;
  	right: 22px;
  	width: 190px;
  	height: 190px;
  	background-color: yellow;
  	text-align:center;
  	-webkit-border-radius: 8px;
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 div#sub nav#local{
 	position: fixed;
 	border:red 2px solid;
-    top: 270px;
+  top: 270px;
  	right: 22px;
  	width: 150px;
  	height: 150px;
@@ -141,7 +141,7 @@ div#sub nav#local{
 div#sub aside.banners{
 	position: fixed;
 	border:red 2px solid;
-    top: 430px;
+  top: 430px;
  	right: 22px;
  	width: 150px;
  	height: 150px;
